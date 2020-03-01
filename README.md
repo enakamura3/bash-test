@@ -2,6 +2,12 @@
 
 Simple script to convert images from `jpg` to `png` using `ImageMagic`.
 
+## how to run
+
+```
+bash script.sh images
+```
+
 ## awk
 
 We use awk script to manipulate texts
