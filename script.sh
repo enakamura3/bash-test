@@ -17,10 +17,10 @@ image_convert(){
   done
 }
 
-image_convert $@ 0> in.txt 1> out.txt 2> error.txt
+image_convert $@ 1> out.txt 2> error.txt
 if [ $? -eq 0 ]
 then
   echo "done"
 else
-  echo "error converting iamge"
+  echo "error converting image"
 fi
